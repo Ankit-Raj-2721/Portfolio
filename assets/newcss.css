@@ -393,7 +393,7 @@ img {
   width: 170px;
   border-radius: 500%;
   justify-self: center;
-  align-self: center;
+  align-self: flex-start;
   /* border: 1px solid #fff; */
 }
 
