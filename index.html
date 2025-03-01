@@ -35,6 +35,11 @@
               </a>
             </li>
             <li class="nav__item">
+              <a href="#certifications" class="nav__link">
+                <i class="uil uil-award nav__icon"></i>Certifications
+              </a>
+            </li>
+            <li class="nav__item">
               <a href="#workexperience" class="nav__link">
                 <i class="uil uil-file-alt nav__icon"></i>Work Experience
               </a>
@@ -197,8 +202,8 @@
       <section class="skills section" id="skills">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">My Technical Expertise</span>
-
         <div class="skills__container container grid">
+          
           <div>
             <!--==================== Skill 1 =================-->
             <div class="skills__content skills__open">
@@ -221,7 +226,7 @@
                 
                   <div class="skills__data">
                     <div class="skills__titles">
-                      <h3 class="skills__name">Java</h3>
+                      <h3 class="skills__name">Java (Core, Swings, DSA)</h3>
                     </div>
                     
                   </div>
@@ -246,7 +251,8 @@
                 
               </div>
             </div>
-
+            </div>
+            <div>
             <!--==================== Skill 2 =================-->
             <div class="skills__content skills__close">
               <div class="skills__header">
@@ -274,6 +280,7 @@
               </div>
             </div>
           </div>
+          <div>
           <!--==================== Skill 4 =================-->
           <div class="skills__content skills__close">
             <div class="skills__header">
@@ -298,6 +305,11 @@
               </div>
               <div class="skills__data">
                 <div class="skills__titles">
+                  <h3 class="skills__name">MongoDB</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
                   <h3 class="skills__name">JDBC</h3>
                 </div>
               </div>
@@ -309,6 +321,7 @@
             </div>
           </div>
           <div>
+          </div>
             <!--==================== Skill 3 =================-->
             <div>
               <div class="skills__content skills__close">
@@ -423,6 +436,74 @@
         </div>
         
       </section>
+      
+      <!--=================== Certifications ===================-->
+<section class="portfolio section" id="certifications">
+  <h2 class="section__title">Certifications</h2>
+  <span class="section__subtitle">My Professional Certifications</span>
+
+  <div class="portfolio__container container swiper-container">
+    <div class="swiper-wrapper">
+      
+      <!-- Certification 1 -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="assets/img/cert1.png" alt="Certification 1" class="portfolio__img" />
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Java & Python Full Stack Development And Testing</h3>
+          <p class="portfolio__description">KodNest Technologies Pvt. Ltd.</p>
+        </div>
+      </div>
+
+      <!-- Certification 2 -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="assets/img/cert2.png" alt="Certification 2" class="portfolio__img" />
+        <div class="portfolio__data">
+          <h3 class="portfolio__title"> Python & Generative AI For Advanced Analytics</h3>
+          <p class="portfolio__description">Udemy</p>
+        </div>
+      </div>
+
+      <!-- Certification 3 -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="assets/img/cert3.png" alt="Certification 3" class="portfolio__img" />
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Data Structures Using Python</h3>
+          <p class="portfolio__description">Udemy</p>
+        </div>
+      </div>
+
+      <!-- Certification 4 -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="assets/img/cert4.png" alt="Certification 4" class="portfolio__img" />
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Smart India Hackathon</h3>
+          <p class="portfolio__description">i4C</p>
+        </div>
+      </div>
+      
+      <!-- Certification 5 -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="assets/img/cert5.png" alt="Certification 5" class="portfolio__img" />
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Fundamentals Of Digital Marketing</h3>
+          <p class="portfolio__description">Google</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- add arrows -->
+    <div class="swiper-button-next">
+      <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+    </div>
+    <div class="swiper-button-prev">
+      <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+    </div>
+    
+    <!-- add pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
 
       <!--==================== Work Experience ==================-->
       <section class="qualification__section service__section" id="workexperience">
@@ -431,10 +512,6 @@
 
         <div class="qualification__container container grid services__container">
           <div class="qualification__tabs">
-            <div class="qualification__button button--flex qualification__active" data-target="#work">
-              <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Experience
-            </div>
           </div>
 
           <div class="qualification__sections">
@@ -578,13 +655,7 @@
           class="qualification__container container grid services__container"
         >
           <div class="qualification__tabs">
-            <div
-              class="qualification__button button--flex qualification__active"
-              data-target="#education"
-            >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
-            </div>
+            
           </div>
 
           <div class="qualification__sections">
@@ -1033,10 +1104,19 @@
 
           <ul class="footer__links">
             <li>
+              <a href="#skills" class="footer__link">Skills</a>
+            </li>
+            <li>
+              <a href="#certifications" class="footer__link">Certifications</a>
+            </li>
+            <li>
+              <a href="#workexperience" class="footer__link">Experience</a>
+            </li>
+            <li>
               <a href="#qualification" class="footer__link">Qualification</a>
             </li>
             <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
+              <a href="#portfolio" class="footer__link">Projects</a>
             </li>
             <li>
               <a href="#contact" class="footer__link">Contact</a>
